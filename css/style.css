@@ -1,0 +1,111 @@
+.container .login__welcome
+{
+	
+}
+
+
+.login__welcome
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url('../image/images.jpg');
+	background-size: cover;
+	height:100vh;
+}
+
+.login__welcome img
+{
+	width: 300px;
+	padding-bottom: 100px;
+}
+
+
+.login__heading
+{
+	margin-left: 60px;
+}
+
+.login__heading h1, h3
+{
+	color: white;
+}
+
+.login__heading button
+{   
+	background-color: transparent;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login__welcome-2 .or
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.button {
+	height: 60px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #F1C40F;
+	background-image: linear-gradient(#F1C40F, #F1C40F);
+	font: 700 13px/18px Helvetica, arial;
+	margin-top: 15px;
+	color: white;
+}
+.button--state-primary{
+	color: #FFF;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+	border-color: #1F618D;
+	margin-top: 30px;
+}
+.button--state-info {
+	color: #FFF;
+	background: #5DADE2 linear-gradient(#5DADE2, #5DADE2) repeat-x;
+	border-color: #5DADE2;
+	margin-top: 20px;
+}
+
+/*.login-welcome-2 span .i-dont {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}*/
+
+
+	/*REGISTER PAGE*/
+
+.register__page .input-1 input
+{
+	width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin: auto;
+}
+
+.button--state-primary-section-2 {
+	color: #FFF;
+	background: #1F618D linear-gradient(#1F618D, #1F618D) repeat-x;
+	border-color: #1F618D;
+	margin-top: 15px;
+}
